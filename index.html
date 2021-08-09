@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Magazine Luiza</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row py-2 links-header">
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+          <a href="#" class="link-header">Nossas Lojas</a>
+          <a href="#" class="link-header">Tenha sua loja</a>
+          <a href="#" class="link-header">Regulamentos</a>
+          <a href="#" class="link-header">Acessibilidade</a>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+          <a href="#" class="link-header">Atendimento</a>
+          <a href="#" class="link-header">Compre pelo tel: 0800 773 3838</a>
+          <a href="#" class="link-header">Meus pedidos</a>
+        </div>
+      </div>
+      <div class="row align-items-center py-2">
+        <div class="col-lg-2 col-md-12 text-center">
+          <img src="images/magalu-logo.svg" alt="Magalu logo" width="140">
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Procure por código, nome, marca..."
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn custom-btn" type="button" id="button-addon2"><i class="icon-search"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 p-2">
+          <span class="texto-bem-vindo">Bem-vindo :)</span>
+          <span class="texto-entrar-cadastrar">Entre ou cadastre-se</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-xl navbar-dark custom-menu">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Todos os Departamentos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Acessórios de Tecnologia</a></li>
+                <li><a class="dropdown-item" href="#">Games</a></li>
+                <li><a class="dropdown-item" href="#">Eletroportáteis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas do dia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Celulares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Móveis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Eletrodomésticos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV e Vídeo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Informática</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Saldão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Netshoes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active custom-banner1">
+        <img src="images/banner-01.png" class="d-block img-fluid m-auto" alt="Banner promocional">
+      </div>
+      <div class="carousel-item custom-banner2">
+        <img src="images/banner-02.png" class="d-block img-fluid m-auto" alt="Banner promocional">
+      </div>
+      <div class="carousel-item custom-banner3">
+        <img src="images/banner-03.png" class="d-block img-fluid m-auto" alt="Banner promocional">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main class="container my-5">
+    <div class="row mt-3">
+      <aside class="col-lg-2 col-md-12">
+        <h3 class="texto-celular-smartphone mb-4">Celular e Smartphone</h3>
+        <div class="row">
+          <div class="col-lg-12 col-sm-6">
+            <h4 class="texto-categorias mb-2">categorias</h4>
+            <a href="#" class="categoria">Smartphone</a>
+            <a href="#" class="categoria">iPhone</a>
+            <a href="#" class="categoria">Samsung Galaxy</a>
+            <a href="#" class="categoria">Motorola</a>
+            <a href="#" class="categoria">Xiaomi</a>
+            <a href="#" class="categoria">Huawei</a>
+            <a href="#" class="categoria">Asus Zenfone</a>
+            <a href="#" class="categoria">LG</a>
+            <a href="#" class="categoria">Sony Xperia</a>
+          </div>
+          <div class="col-lg-12 col-sm-6">
+            <h4 class="texto-categorias mt-4 mb-2">marcas</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="samsung" id="samsung">
+              <label class="form-check-label custom-form-label" for="samsung">
+                Samsung
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="motorola" id="motorola">
+              <label class="form-check-label custom-form-label" for="motorola">
+                Motorola
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="lg" id="lg">
+              <label class="form-check-label custom-form-label" for="lg">
+                LG
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="asus" id="asus">
+              <label class="form-check-label custom-form-label" for="asus">
+                Asus
+              </label>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="col-lg-10">
+        <h2 class="mb-5 p-2 texto-ofertas">Ofertas do dia</h2>
+        <div class="row justify-content-center mt-3">
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 14rem;">
+            <img src="images/celular-01.jpg" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text">Smartphone Samsung Galaxy A32 128GB Azul 4G</p>
+              <span class="preco-antigo">de R$ 1999,99 por</span>
+              <span class="preco">R$ 1599,00</span>
+              <span class="parcelamento">10x de R$ 159,90 sem juros</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 class="texto-formas-pgto">Formas de pagamento</h4>
+          <img src="images/formas-pagamento.png" alt="Formas de pagamento" width="400" class="img-fluid">
+        </div>
+      </div>
+      <hr class="linha">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <h5 class="texto-ofertas-email"> receba ofertas com preços exclusivos</h5>
+        </div>
+      </div>
+      <div class="row g-2 mt-2 justify-content-center">
+        <div class="col-lg-3 col-md-10">
+          <input type="text" class="form-control form-control-sm" placeholder="digite o seu nome" aria-label="nome">
+        </div>
+        <div class="col-lg-3 col-md-10">
+          <input type="text" class="form-control form-control-sm" placeholder="digite o seu email" aria-label="email">
+        </div>
+        <div class="col-lg-2 col-md-10">
+          <button type="submit" class="btn btn-sm btn-light">Enviar</button>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+          <h6>departamentos</h6>
+          <a href="#" class="link-footer">ar e ventilação</a>
+          <a href="#" class="link-footer">beleza e perfumaria</a>
+          <a href="#" class="link-footer">câmeras e drones</a>
+          <a href="#" class="link-footer">esportes e lazer</a>
+          <a href="#" class="link-footer">informática</a>
+          <a href="#" class="link-footer">papelaria</a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+          <h6>marketplace</h6>
+          <a href="#" class="link-footer">venda seus produtos</a>
+
+          <h6 class="mt-3">central de atendimento</h6>
+          <a href="#" class="link-footer">atendimento</a>
+          <a href="#" class="link-footer">meus pedidos</a>
+          <a href="#" class="link-footer">trocas e devoluções</a>
+          <a href="#" class="link-footer">política de privacidade</a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+          <h6>serviços</h6>
+          <a href="#" class="link-footer">recarga premiada</a>
+          <a href="#" class="link-footer">plano controle</a>
+          <a href="#" class="link-footer">televendas</a>
+          <a href="#" class="link-footer">empresas</a>
+          <a href="#" class="link-footer">cartão luíza</a>
+          <a href="#" class="link-footer">parceiro magalu</a>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-6 mb-5 ps-4">
+          <h6 class="m-0">compre pelo telefone</h6>
+          <span class="telefone-footer d-block mb-2">0800 773 3838</span>
+          <p class="footer-p">segunda a domingo: 8h às 20h (exceto feriados)</p>
+          <p class="footer-p">compre também pelo chat online</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

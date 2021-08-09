@@ -1,0 +1,158 @@
+header, footer {
+    background-color: #0086ff;
+}
+
+.link-header, .link-header:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.texto-bem-vindo, .texto-entrar-cadastrar {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1em;
+}
+
+.texto-bem-vindo {
+    font-weight: bold;
+}
+
+.texto-entrar-cadastrar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.custom-btn {
+    background-color: #fff;
+    border-left: 1px solid #cecece;
+}
+
+.icon-search {
+    background: url(images/search.svg) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.custom-banner1 {
+    background-color: #42afee;
+}
+
+.custom-banner2 {
+    background-color: #ff6565;
+}
+
+.custom-banner3 {
+    background-color: #8422d4;
+}
+
+.texto-celular-smartphone {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6e0896;
+}
+
+.texto-categorias {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.categoria, .custom-form-label {
+    color: black;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.categoria {
+    display: block;
+    text-decoration: none;
+}
+
+.preco-antigo, .preco, .parcelamento {
+    display: block;
+}
+
+.preco-antigo {
+    font-size: 14px;
+    color: #6e6e6e;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.parcelamento {
+    font-size: 14px;
+}
+
+.valores-produto {
+    display: inline-block;
+    width: 80%;
+}
+
+.texto-ofertas {
+    border-bottom: 2px solid #6e0896;
+    color: #6e0896;
+}
+
+.card {
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 0 #c0c0c0;
+    z-index: 2;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.texto-formas-pgto, .texto-ofertas-email, .linha {
+    color: #fff;
+}
+
+.texto-ofertas-email::before {
+    content: "";
+    background: url(images/email-icon.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+footer h6, footer p, .telefone-footer {
+    color: #fff;
+}
+.link-footer, .link-footer:hover {
+    color: #d4d4d4;
+    display: block;
+    text-decoration: none;
+}
+
+.link-footer, .footer-p {
+    font-size: 12px;
+}
+
+.telefone-footer {
+font-size: 26px;
+}
+
+.footer-p, .footer h6{
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .links-header {
+        display: none;
+    }
+    
+    header img {
+        margin: 2% 0;
+    }
+}
